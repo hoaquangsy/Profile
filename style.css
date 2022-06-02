@@ -1,0 +1,61 @@
+.container{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: auto;
+}
+header{
+    width: 100%;
+    height: auto;
+}
+nav{
+    width: 70%;
+    margin: 0 auto;
+
+}
+nav ul{
+    display: inline-block;
+    width: 93%;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li:hover a{
+    color: #f0a204;
+}
+.nav-left{
+    float: left;
+    font-size: 25px;
+}
+.nav-right{
+    float: right;
+    font-size: 20px;
+
+}
+ul li a{
+    margin-right: 40px;
+    text-decoration: none;
+    color: black;
+    font-family: roboto;
+    font-weight: bold;
+}
+article{
+    width: 70%;
+    margin: 0 auto;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+aside{
+    height: 540px;
+    padding: 40px;
+
+}
+.aside-left{
+    width: 464px;
+}
+.avatar{
+    width: 540px;
+    height: 540px;
+    border-radius: 50%;
+}
